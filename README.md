@@ -26,6 +26,9 @@ You may use the following wireframes (also in a folder above) as guidance as you
 
 ### Commits
 
+
+
+
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
 
 ## Interview Questions
