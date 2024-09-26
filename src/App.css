@@ -2,37 +2,175 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+textArea{
+  margin:2%;
+  background-color:black;
+  color:white;
+  border: 1px solid black;
+  box-shadow:black 2px 3px;
+  border-radius:7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  margin:0;
+  padding:0;
+  background: radial-gradient(
+    crimson,
+    black
+  );
+}
+
+input{
+  background-color:rgb(0, 0, 0);
+}
+
+select{
+  text-shadow:black 3px 1px;
+  background-color:rgb(0, 0, 0);
+}
+
+/* header styles */
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  text-align:center;
+  font-size: 500%;
+  color:black;
+}
+
+h5{
+  font-size:3em;
+  text-align:center;
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow: 3px 4px  black;
+}
+
+.pizza-app{
+  margin: 3% 20%;
+  padding:3% 2% ;
+  flex-direction:column;
+  border: 3px solid black;
+  border-radius:10px;
+  box-shadow:black 3px 6px;
+  font-family: 'Varela', sans-serif;
+  background: crimson;
+}
+
+img{
+  max-width: 100%;
+  border: 3px solid black;
+  box-shadow:rgb(0, 0, 0) 4px 2px;
+  border-radius:10px;
+  margin-bottom: 10px;
+}
+
+label{
+margin:2%;
+padding: .7%;
+border: 3px solid rgba(2, 2, 2, 0.486);
+box-shadow:rgb(0, 0, 0) 3px 2px;
+border-radius: 6px;
+display: flex;
+flex-wrap: nowrap;
+font-size: .7rem;
+}
+
+.checks{
+  padding: 2%; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex-wrap:wrap;
+}
+
+h2{
+  margin:2%;
+  margin-bottom:0%;
+  background-color:rgb(0, 0, 0);
+  border: 2px solid black;
+  box-shadow:rgb(51, 49, 49) 4px 3px;
+  border-radius:7px 7px 0px 0px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  margin: 2%;
+  margin-bottom: 10px;
+  margin-top:0%;
+  padding: 5px;
+  background-color:rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius:0px 0px 7px 7px;
 }
+
+button{
+  border: 1px solid black;
+  box-shadow:black 2px 3px;
+  color: crimson;
+  border-radius:7px;
+  padding:.5% .9%;
+  display: flex;
+  justify-content:center;
+  margin: 20px;
+  background: black;
+}
+
+.navBar{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.link{
+  border:  2px solid black; 
+  box-shadow:black 2px 3px;
+  border-radius:10px;
+  margin: .5%;
+  padding:.6%;
+  display:flex;
+  justify-content:center;
+  background-image: url('https://www.teahub.io/photos/full/51-513586_cute-food-wallpapers-full-hd-top-wallpapers-full.png');
+  background-size: cover;
+}
+
+.linkA{
+  border:  2px solid black; 
+  box-shadow:black 2px 3px;
+  border-radius:10px;
+  margin: .5%;
+  padding:.4%;
+}
+
+.linkB{
+  border: 2px solid black; 
+  box-shadow:black 2px 3px;
+  border-radius:10px;
+  margin: .5%;
+  padding:.4%;
+}
+
+p {
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+/* form styles */
+form{
+ border: 2px solid black; 
+ border-radius:10px;
+ box-shadow:rgb(0, 0, 0) 4px 2px;
+} 
